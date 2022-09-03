@@ -12,6 +12,8 @@ const paperAddress = require('faker');
 
 app.set('views', './html');
 app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/strapdown'));
+
 
 app.get('/', function (req, res) {
 
