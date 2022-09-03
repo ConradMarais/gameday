@@ -4,7 +4,7 @@
 ############################################
 
 # Set base image to python
-FROM node:8.7.0-alpine
+FROM public.ecr.aws/bitnami/node:15.14.0
 
 # File Author / Maintainer
 MAINTAINER Timmy Timm
